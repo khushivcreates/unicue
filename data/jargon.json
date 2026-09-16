@@ -1,0 +1,14 @@
+[
+  {"term":"CAF","expansion":"Course Allotment Form","meaning":"The form you submit to pick your elective subjects for the semester. Skip it and the college assigns defaults for you."},
+  {"term":"OD","expansion":"On Duty","meaning":"Official permission that marks you 'present' even though you're away for a college-approved event, so it doesn't count against your attendance."},
+  {"term":"Condonation","expansion":"Attendance Condonation","meaning":"Official forgiveness for low attendance (usually 65-75%). Without it you may be blocked from sitting the semester exam."},
+  {"term":"Backlog","expansion":"Backlog Subject","meaning":"A subject you failed or didn't clear. You get a supplementary exam to clear it instead of waiting a full year."},
+  {"term":"ATKT","expansion":"Allowed To Keep Term","meaning":"You're allowed to move to the next year/semester even with a pending backlog, as long as it's within the allowed limit."},
+  {"term":"CGPA","expansion":"Cumulative Grade Point Average","meaning":"Your overall academic score across all semesters combined, usually on a 10-point scale."},
+  {"term":"SGPA","expansion":"Semester Grade Point Average","meaning":"Your grade point average for just one semester, not your whole degree."},
+  {"term":"ERP","expansion":"Enterprise Resource Planning portal","meaning":"The official college web portal for attendance, grades, fees, forms and circulars — basically the one login that runs everything administrative."},
+  {"term":"NSP","expansion":"National Scholarship Portal","meaning":"A government portal for applying to and tracking scholarships. Needs document verification before money is released."},
+  {"term":"Condoned Absence","expansion":"Condoned Absence","meaning":"An absence that's been officially excused after you submit proof, so it no longer counts against your attendance percentage."},
+  {"term":"Supplementary Exam","expansion":"Supplementary / Supply Exam","meaning":"A retake exam offered after the main exam, usually for students clearing a backlog."},
+  {"term":"Detained","expansion":"Detained (Attendance)","meaning":"Blocked from writing the semester exam because your attendance percentage is too low and wasn't condoned in time."}
+]

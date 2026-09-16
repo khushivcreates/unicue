@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #F6F3EC;
+  --fg: #12130F;
+  --card: #FFFFFF;
+}
+
+.dark {
+  --bg: #12130F;
+  --fg: #F6F3EC;
+  --card: #1C1E17;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+::selection {
+  background: #C6F135;
+  color: #12130F;
+}
+
+.card-surface {
+  background-color: var(--card);
+}
+
+/* subtle rotated sticker look for badges */
+.sticker {
+  transform: rotate(-2deg);
+}
+.sticker:nth-child(even) {
+  transform: rotate(2deg);
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(120px) rotate(360deg);
+    opacity: 0;
+  }
+}
+.confetti-piece {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  animation: confetti-fall 0.9s ease-out forwards;
+}
+
+.focus-ring:focus-visible {
+  outline: 3px solid #12130F;
+  outline-offset: 2px;
+}
+.dark .focus-ring:focus-visible {
+  outline-color: #C6F135;
+}
