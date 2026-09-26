@@ -46,7 +46,7 @@ Open http://localhost:3000.
 See the deployment walkthrough the assistant gave you alongside this project for the
 full GitHub + Vercel steps, exact commands, and where to add `ANTHROPIC_API_KEY`.
 
-## Notes for judges
+## Note:
 
 - "Bonus features we added" (Vibe Meter/streak, countdown chips, Explain-Like-a-Fresher,
   Squad Digest, Senior Tips, confetti, dark/light toggle) are explicitly labelled as new
